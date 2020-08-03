@@ -7,7 +7,6 @@ const mongoose = require('mongoose');
 const mongoURI = require('./config/config');
 const passport = require('passport');
 
-const stripeAuth = require('./authentication/stripeAuthentication');
 const authRouter = require('./routes/authRouter');
 const productRouter = require('./routes/productRouter');
 const storeRouter = require('./routes/storeRouter');
@@ -50,8 +49,6 @@ passport.serializeUser((user, done) => {
 passport.deserializeUser((user, done) => {
 	done(null, user);
 });
-
-passport.use(stripeAuth);
 
 server.use(express.static(path.join(__dirname, 'public')));
 server.set('views', path.join(__dirname, 'views'));
