@@ -12,21 +12,6 @@ You can find the deployed project at [Pure Retail](https://develop.pure-retail-u
 
 [UX Design files](https://www.figma.com/file/yEcP1XlcvPGqcAueTDECFS/Pure-Retail?node-id=0%3A1)
 
-## Getting Started
-
-Clone the Repo to your local machine
-
-```bash
-git clone https://github.com/Lambda-School-Labs/shopping-cart-fe.git
-
-```
-
-```bash
-cd <project-directory>
-npm i
-npm start
-```
-
 ## Contributors
 
 |                                                           [Eric Ferguson](https://github.com/erferguson)                                                           |                                                           [Ariunbold Oyungerel](https://github.com/Ariuka11)                                                            |                                      [Ben Kandaris](https://github.com/bkandaris)                                       |                                    [Matthew Vaccaro](https://github.com/MatthewVaccaro)                                     |                                      [Chirag Thesia](https://github.com/ChiragThesia)                                      |
